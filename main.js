@@ -42,11 +42,7 @@ $(document).ready(function() {
 
 //6.
   $(".clickToggle").click(function(){
-    if ($(".clickToggle").hasClass("buttonStyle")) {
-      $(".clickToggle").toggleClass("buttonStyle");
-    } else {
-      $(".clickToggle").addClass("buttonStyle");
-    }
+    $(".clickToggle").toggleClass("buttonStyle");
   });
 
 //7.
